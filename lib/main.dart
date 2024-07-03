@@ -11,10 +11,18 @@ void main() {
                 Color.fromRGBO(103, 58, 183, 1),
                 Color.fromRGBO(255, 87, 34, 1),
               ],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: const Center(
-            child: Text('Hello World!'),
+            child: Text(
+              'Hello World!',
+              style: TextStyle(
+                color: Colors.white,
+                fontSize: 28,
+              ),
+            ),
           ),
         ),
       ),
