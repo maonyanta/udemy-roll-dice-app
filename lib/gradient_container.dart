@@ -12,19 +12,22 @@ class GradientContainer extends StatelessWidget {
   @override
   Widget build(context) {
     return Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: colors, //const [
-              //  Color.fromRGBO(140, 135, 148, 1),
-              //  Color.fromRGBO(255, 87, 34, 1),
-              //],
-              begin: startAlignment, //Alignment.topLeft,
-              end: endAlignment, //Alignment.bottomRight,
-            ),
-          ),
-          child: const Center(
-            child: StyledText('Hello, world.'),
-            ),
-          );
+      decoration: BoxDecoration(
+        gradient: LinearGradient(
+          colors: colors, //const [
+          //  Color.fromRGBO(140, 135, 148, 1),
+          //  Color.fromRGBO(255, 87, 34, 1),
+          //],
+          begin: startAlignment, //Alignment.topLeft,
+          end: endAlignment, //Alignment.bottomRight,
+        ),
+      ),
+      child: Center(
+        child: Image.asset(
+          'dice-1.png',
+          width: 200,
+        ), //StyledText('Hello, world.'),
+      ),
+    );
   }
 }
