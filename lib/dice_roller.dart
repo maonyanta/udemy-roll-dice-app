@@ -37,7 +37,7 @@ class _DiceRollerState extends State<DiceRoller>{
                   right: 20,
                   bottom: 20,
                 ),
-                foregroundColor: Colors.white,
+                foregroundColor: const Color.fromARGB(255, 211, 111, 111),
                 textStyle: const TextStyle(
                   fontSize: 28,
                 ),
