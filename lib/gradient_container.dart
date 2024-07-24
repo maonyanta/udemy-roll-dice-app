@@ -22,10 +22,7 @@ class GradientContainer extends StatelessWidget {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-          colors: [color1, color2], //const [
-          //  Color.fromRGBO(140, 135, 148, 1),
-          //  Color.fromRGBO(255, 87, 34, 1),
-          //],
+          colors: [color1, color2], 
           begin: startAlignment, //Alignment.topLeft,
           end: endAlignment, //Alignment.bottomRight,
         ),
